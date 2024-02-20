@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b29f806f-01a3-48c6-95fc-234749b7d7cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b29f806f-01a3-48c6-95fc-234749b7d7cf" name="Changes" comment="0.0">
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/blogger/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogger/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +30,16 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2cdoey4CEbm6VeDImUjg5tNFUon" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -48,6 +61,20 @@
       <option name="presentableId" value="Default" />
       <updated>1708450916073</updated>
     </task>
+    <task id="LOCAL-00001" summary="0.0">
+      <option name="closed" value="true" />
+      <created>1708451343776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708451343776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0" />
   </component>
 </project>
