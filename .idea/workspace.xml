@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b29f806f-01a3-48c6-95fc-234749b7d7cf" name="Changes" comment="0.0">
+    <list default="true" id="b29f806f-01a3-48c6-95fc-234749b7d7cf" name="Changes" comment="0.1">
+      <change afterPath="$PROJECT_DIR$/blogger/media/category/download_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/media/category/image_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/media/post/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/media/post/download-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/media/post/image_6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogger/blogger/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogger/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogger/blogger/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogger/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogger/blogs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/blogs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +75,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708452723649</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0.1">
+      <option name="closed" value="true" />
+      <created>1708453538216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708453538216</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0" />
+    <MESSAGE value="0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1" />
   </component>
 </project>
