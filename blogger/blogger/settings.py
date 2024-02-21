@@ -56,7 +56,7 @@ ROOT_URLCONF = 'blogger.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -126,3 +126,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MATERIAL_ADMIN_SITE = {
+    'HEADER':  'YouBlogger Admin Portal',  # Admin site header
+    'TITLE':  'YouBlogger',  # Admin site title
+
+    }
