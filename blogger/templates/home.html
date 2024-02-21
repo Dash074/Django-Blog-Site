@@ -1,10 +1,12 @@
-{%extends 'base.html'%}
+{%extends 'base.html' %}
 
-{%block title%} Welcome to YouBlog {%endblock%}
+{%block title%} Welcome to IBLOGS {%endblock%}
 
 {%block content%}
 
+
 <div class="container-custom">
+
 
     <div class="owl-carousel">
 
@@ -42,7 +44,6 @@
 </div>
 
 
-</div>
 <div class="container">
 
     <div class="row">
@@ -59,7 +60,7 @@
 
                     {{p.content |truncatewords:60 | safe}}
                     <div class="mt20">
-                        <a href="/blog/{{p.url}}" class="btn  bg-primary ">Read More...</a>
+                        <a href="/blog/{{p.url}}" class="btn  bg-primary ">Read More..</a>
                     </div>
                 </div>
 
@@ -71,7 +72,7 @@
             </div>
 
 
-            {%endfor%}
+            {%endfor %}
 
 
         </div>

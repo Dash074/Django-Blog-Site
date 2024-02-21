@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from blogs.models import Post  # There is no error here
 from blogs.models import Category  # There is no error here
 
@@ -30,3 +30,15 @@ def category(request, url):
     cat = Category.objects.get(url=url)
     posts = Post.objects.filter(cat=cat)
     return render(request, "category.html", {'cat': cat, 'posts': posts})
+
+
+from django.contrib.auth import logout
+from django.http import HttpResponseNotAllowed
+
+
+def admin_logout(request):
+    if request.method == 'POST':
+        logout(request)
+        return redirect('/admin')  # Redirect to admin index page after logout
+    else:
+        return HttpResponseNotAllowed(['POST'])  # Return 405 Method Not Allowed for non-POST requests

@@ -1,5 +1,5 @@
 .bg-primary{
-background:#477091!important;
+background:black!important;
 }
 
 .mt20{
@@ -9,4 +9,9 @@ margin-top:20px;
 .container-custom{
 width:95%!important;
 margin:auto;
+}
+
+.owl-carousel{
+width: auto;
+height:auto;
 }
