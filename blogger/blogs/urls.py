@@ -21,7 +21,9 @@ from django.conf import settings
 from .views import home, post, category, admin_logout
 
 urlpatterns = [
-    path('home/',home),
+    path('',home),
+    path('home/', home),
+
     path('blog/<slug:url>', post),
     path('category/<slug:url>', category),
     path('admin/logout/', admin_logout, name='admin_logout'),
