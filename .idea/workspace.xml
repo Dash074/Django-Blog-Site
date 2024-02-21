@@ -4,18 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b29f806f-01a3-48c6-95fc-234749b7d7cf" name="Changes" comment="0.3">
-      <change afterPath="$PROJECT_DIR$/blogger/blogs/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogger/blogs/static/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogger/blogs/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogger/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogger/templates/home.html" afterDir="false" />
+    <list default="true" id="b29f806f-01a3-48c6-95fc-234749b7d7cf" name="Changes" comment="0.4">
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/migrations/0002_alter_post_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/static/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/static/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/static/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/static/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/media/category/download_3_JHJCHPv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/media/category/images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/media/post/Python-logo-notext.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/media/post/Python-logo-notext.svg_U74u4VR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/media/post/WhatsApp_Image_2024-01-31_at_00.05.41_9d7b6ab2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/media/post/download_5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/templates/posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogger/blogger/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogger/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogger/blogger/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogger/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogger/blogs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogger/blogs/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/blogs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/blogs/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/blogs/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/blogs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogger/blogs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +64,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/Blog-Python/pythonProject/blogger/blogs"
+    "last_opened_file_path": "D:/Projects/Blog-Python/pythonProject/blogger/blogs/static/css"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Blog-Python\pythonProject\blogger\blogs\static\css" />
+      <recent name="D:\Projects\Blog-Python\pythonProject\blogger\blogs\static\js" />
       <recent name="D:\Projects\Blog-Python\pythonProject\blogger\blogs" />
     </key>
   </component>
@@ -106,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708456376721</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0.4">
+      <option name="closed" value="true" />
+      <created>1708523772317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708523772317</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,6 +138,7 @@
     <MESSAGE value="0.0" />
     <MESSAGE value="0.1" />
     <MESSAGE value="0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.3" />
+    <MESSAGE value="0.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.4" />
   </component>
 </project>
