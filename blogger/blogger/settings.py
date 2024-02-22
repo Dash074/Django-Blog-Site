@@ -129,7 +129,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MATERIAL_ADMIN_SITE = {
-    'HEADER':  'YouBlogger Admin Portal',  # Admin site header
+    'HEADER':  'YouBlogger Admin',  # Admin site header
     'TITLE':  'YouBlogger',  # Admin site title
 
     }

@@ -32,6 +32,18 @@ def category(request, url):
     return render(request, "category.html", {'cat': cat, 'posts': posts})
 
 
+def about(request):
+    cat = Category.objects.all()
+    posts = Post.objects.all()
+    return render(request, "about.html", {'cat': cat, 'posts': posts})
+
+
+def add_post(request, url):
+    cat = Category.objects.get(url=url)
+    posts = Post.objects.filter(cat=cat)
+    return render(request, "about.html", {'cat': cat, 'posts': posts})
+
+
 from django.contrib.auth import logout
 from django.http import HttpResponseNotAllowed
 

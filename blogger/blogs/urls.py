@@ -18,13 +18,15 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls.static import static
 from django.conf import settings
-from .views import home, post, category, admin_logout
+from .views import home, post, category, about, add_post
 
 urlpatterns = [
     path('',home),
     path('home/', home),
+    path('about/', about),
+    path('add_post/', add_post),
 
     path('blog/<slug:url>', post),
     path('category/<slug:url>', category),
-    path('admin/logout/', admin_logout, name='admin_logout'),
+
 ]

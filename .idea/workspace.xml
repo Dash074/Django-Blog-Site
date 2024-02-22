@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b29f806f-01a3-48c6-95fc-234749b7d7cf" name="Changes" comment="0.6">
+      <change afterPath="$PROJECT_DIR$/blogger/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/templates/add_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogger/templates/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/blogger/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogger/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/blogger/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogger/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogger/blogs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/blogs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/templates/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/templates/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogger/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +34,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2cdoey4CEbm6VeDImUjg5tNFUon" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,16 +47,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/Blog-Python/pythonProject/blogger/blogs/static/css"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Blog-Python/pythonProject/blogger/blogs/static/css&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\Blog-Python\pythonProject\blogger\blogs\static\css" />
