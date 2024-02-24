@@ -38,19 +38,20 @@ def about(request):
     return render(request, "about.html", {'cat': cat, 'posts': posts})
 
 
-def add_post(request, url):
-    cat = Category.objects.get(url=url)
-    posts = Post.objects.filter(cat=cat)
-    return render(request, "about.html", {'cat': cat, 'posts': posts})
+from .forms import YourForm  # Import your form class
+
+# blog/views.py
+
+from django.shortcuts import render, redirect
+from .forms import PostForm
 
 
-from django.contrib.auth import logout
-from django.http import HttpResponseNotAllowed
-
-
-def admin_logout(request):
+def add_post(request):
     if request.method == 'POST':
-        logout(request)
-        return redirect('/admin')  # Redirect to admin index page after logout
+        form = PostForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('blog:post_list')
     else:
-        return HttpResponseNotAllowed(['POST'])  # Return 405 Method Not Allowed for non-POST requests
+        form = PostForm()
+    return render(request, 'blog/add_post.html', {'form': form})

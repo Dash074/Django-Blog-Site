@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b29f806f-01a3-48c6-95fc-234749b7d7cf" name="Changes" comment="0.6">
-      <change afterPath="$PROJECT_DIR$/blogger/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogger/templates/add_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogger/templates/logout.html" afterDir="false" />
+    <list default="true" id="b29f806f-01a3-48c6-95fc-234749b7d7cf" name="Changes" comment="0.8">
+      <change afterPath="$PROJECT_DIR$/blogger/blogs/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogger/blogger/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogger/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogger/blogger/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogger/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/blogs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogger/blogs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogger/blogs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/blogs/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogger/templates/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/templates/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogger/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogger/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogger/templates/add_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/templates/add_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogger/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogger/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -136,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708537763240</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="0.8">
+      <option name="closed" value="true" />
+      <created>1708628318040</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708628318040</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +162,7 @@
     <MESSAGE value="0.4" />
     <MESSAGE value="0.5" />
     <MESSAGE value="0.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.6" />
+    <MESSAGE value="0.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.8" />
   </component>
 </project>
