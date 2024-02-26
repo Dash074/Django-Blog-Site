@@ -38,8 +38,6 @@ def about(request):
     return render(request, "about.html", {'cat': cat, 'posts': posts})
 
 
-from .forms import YourForm  # Import your form class
-
 # blog/views.py
 
 from django.shortcuts import render, redirect
@@ -51,7 +49,6 @@ def add_post(request):
         form = PostForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect('blog:post_list')
     else:
         form = PostForm()
-    return render(request, 'blog/add_post.html', {'form': form})
+    return render(request, 'add_post.html', {'form': form})

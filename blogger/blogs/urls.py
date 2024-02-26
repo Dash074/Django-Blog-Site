@@ -24,7 +24,7 @@ urlpatterns = [
     path('',home),
     path('home/', home),
     path('about/', about),
-    path('add/', add_post, name='add_post'),
+    path('add_post/', add_post, name='add_post'),
 
     path('blog/<slug:url>', post),
     path('category/<slug:url>', category),
